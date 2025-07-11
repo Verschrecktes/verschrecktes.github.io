@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,6 +8,9 @@ p {
   font-size: 60px;
   margin-top: 0px;
 }
+#demo {
+  font-family: monospace;
+}
 @font-face {
     font-family: 'comic-neue';
     src: url('assets/fonts/ComicNeue-Bold.ttf') format('truetype');
@@ -16,22 +19,17 @@ body {
   font-family: 'comic-neue', serif;
 }
 </style>
-
-Wie lange noch bis Friedrich Merz nicht mehr Kanzler ist?
-
+<title>Wie lange noch bis Friedrich Merz nicht mehr Kanzler ist?</title>
 </head>
 <body>
-
+Wie lange noch bis Friedrich Merz nicht mehr Kanzler ist?
 <p id="demo"></p>
-
-<script style="font-family: 'FiraCode', monospace">
+<script>
 //sauce: https://www.w3schools.com/howto/howto_js_countdown.asp
 // Set the date we're counting down to
 var countDownDate = new Date("Mar 25, 2029 00:00:00").getTime();
-
 // Update the count down every 1 second
 var x = setInterval(function() {
-
   // Get today's date and time
   var now = new Date().getTime();
     
@@ -55,10 +53,8 @@ var x = setInterval(function() {
   }
 }, 1000);
 </script>
-
 <img src="assets/images/merz-haue.gif" alt="merz haue :3" style="max-width: 100%; max-height: 100vh; width: auto; height: auto; display: block; margin-left: auto; margin-right: 0;" />
 <img src="assets/images/ftzn-frtz.jpg" alt="ftzn frtz" style="max-width: 100%; max-height: 100vh; width: auto; height: auto; display: block; margin-right: auto; margin-left: 0;" />
-
 Dies ist ein Anti-Terroranschlag des asozialen Netzwerks.
 </body>
 </html>
